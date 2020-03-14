@@ -1,4 +1,4 @@
-# udacity-microservices
+# udacity-microservice
 [![wnjuguna](https://circleci.com/gh/wnjuguna/udacity-microservices.svg?style=svg)](https://circleci.com/gh/wnjuguna/udacity-microservices)
 
 
@@ -37,14 +37,14 @@ make all
  - Launch a docker container that exposes the microservice on port 8000
 
 ## How to publish the new images:
- Execute the upload_docker.sh. This will:
+ Execute the `upload_docker.sh` This will:
  - Authenticate and publish the image to hub.docker.com
 
 ## How to deploy on kubernetes:
- Execute run_kubernetes.sh. This will:
+ Execute `run_kubernetes.sh` This will:
  create deployment named sklearn
  create a service exposing the microservice externally
 
 ## How to make a prediction:
- Execute the script make_prediction.sh. This will:
+ Execute the script `make_prediction.sh` This will:
   - Send a JSON formatted request to the microservice. 
