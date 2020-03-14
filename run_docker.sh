@@ -10,4 +10,4 @@ docker build -t sklearn:v1 .
 docker image ls 
 # Step 3: 
 # Run flask app
-docker run -d sklearn:v1
+docker run -d -p 8000:80/tcp sklearn:v1
