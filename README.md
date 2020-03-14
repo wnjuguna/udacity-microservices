@@ -12,7 +12,12 @@ This project builds and deploys a web-based House-price prediction microservice 
  - docker
  - virtualbox
 
-## How to build:
+## How to run the stand-alone webapp: 
+```bash
+python3 app.py
+```
+
+## How to package the webapp as container:
 
  Create the virtual environment:
 ```bash
